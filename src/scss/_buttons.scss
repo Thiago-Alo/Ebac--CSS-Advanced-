@@ -12,6 +12,7 @@ $color: #0cf;
   position: relative;
   overflow: hidden;
   z-index: 1;
+  text-align: center;
   &:after {
     content: '';
     position: absolute;

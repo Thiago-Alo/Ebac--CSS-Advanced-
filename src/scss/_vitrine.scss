@@ -32,3 +32,25 @@
 	}
 }
   
+// GRID LOGOS
+$grid-gap: 1rem;
+
+.logos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  grid-gap: $grid-gap;
+  justify-items: center;
+  align-items: center;
+  .logo-item {
+    width: 100%;
+    max-width: 200px;
+    img {
+        height: 100px;
+        width: 150px;
+        transition: all .5s ease-in-out;
+        &:hover{
+            transform: scale(1.5);
+        }
+    }
+  }
+}
