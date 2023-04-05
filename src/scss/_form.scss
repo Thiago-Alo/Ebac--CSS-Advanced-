@@ -1,0 +1,51 @@
+$form-border-color: #ccc;
+$form-focus-border-color: #008080;
+$form-label-color: #fff;
+$form-btn-color: #fff;
+$form-btn-hover-color: #fff;
+$form-btn-bg-color: transparent;
+$form-btn-hover-bg-color: #008080;
+$form-btn-border: 1px solid $form-btn-color;
+$form-btn-hover-border: 1px solid $form-btn-hover-color;
+$form-btn-transition-duration: 0.3s;
+
+.form {
+  display: flex;
+  flex-direction: column;
+  form {
+    display: flex;
+    flex-direction: column;
+    .form-group {
+      margin-bottom: 1rem;
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: $form-label-color;
+      }
+      input {
+        border: 1px solid $form-border-color;
+        padding: 0.5rem;
+        border-radius: 5px;
+        transition: border-color 0.3s ease-in-out;
+        &:focus {
+          border-color: $form-focus-border-color;
+        }
+      }
+    }
+    .btn-submit {
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      border: $form-btn-border;
+      border-radius: 5px;
+      background-color: $form-btn-bg-color;
+      color: $form-btn-color;
+      cursor: pointer;
+      transition: color $form-btn-transition-duration ease-in-out, background-color $form-btn-transition-duration ease-in-out, border-color $form-btn-transition-duration ease-in-out;
+      &:hover {
+        color: $form-btn-hover-color;
+        background-color: $form-btn-hover-bg-color;
+        border-color: $form-btn-hover-border;
+      }
+    }
+  }
+}

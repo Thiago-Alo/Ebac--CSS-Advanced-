@@ -1,0 +1,61 @@
+$color-font: #33d ;
+$color-bg-default: #a9f;
+$color-bg-boxes: #FD3;
+$font-default: Arial, Helvetica, sans-serif;
+$font-size-default: 1.6rem;
+$color-d-blue: #282A3D;
+$color-purple: #6A86E6;
+html {
+    font-size: 62.5%;
+    color:#fff;
+    font-size: 17px;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: linear-gradient(to bottom right, $color-d-blue,$color-d-blue, $color-purple);
+    font-family: $font-default;
+}
+
+h1 {
+    color: $color-font;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+h2 {
+    margin-top: 4rem;
+}
+
+header,
+section,
+footer {
+    display: block;
+    float: left;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    margin: 0 auto;
+    max-width: 90vw;
+}
+
+#sobre {
+    background-color: #000;
+}
+#contato{
+    width: fit-content;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    h1{
+        color:#fff;
+    }
+}
+
+@import 'navbar';
+@import 'vitrine';
+@import 'form';
+
