@@ -1,3 +1,4 @@
+@import 'fonts';
 $color-font: #33d ;
 $color-bg-default: #a9f;
 $color-bg-boxes: #FD3;
@@ -6,6 +7,7 @@ $font-size-default: 1.6rem;
 $color-d-blue: #282A3D;
 $color-purple: #6A86E6;
 html {
+    font-family: Vastago Grotesk;
     font-size: 62.5%;
     color:#fff;
     font-size: 17px;
@@ -14,7 +16,7 @@ html {
 
 body {
     background-image: linear-gradient(to bottom right, $color-d-blue,$color-d-blue, $color-purple);
-    font-family: $font-default;
+
 }
 
 h1 {
@@ -44,6 +46,7 @@ footer {
 
 #sobre {
     background-color: #000;
+    box-shadow: 0 0px 20px rgba(255, 255, 255, 1);
 }
 #contato{
     width: fit-content;
@@ -54,8 +57,7 @@ footer {
         color:#fff;
     }
 }
-
 @import 'navbar';
 @import 'vitrine';
 @import 'form';
-
+@import 'buttons';

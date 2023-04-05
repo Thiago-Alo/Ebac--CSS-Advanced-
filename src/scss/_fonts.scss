@@ -1,0 +1,29 @@
+// Font Vastago Grotesk
+@font-face {
+    font-family: 'Vastago Grotesk';
+    src: url('../fonts/Vastago\ Grotesk\ Light.otf') format('OpenType');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Vastago Grotesk';
+    src: url('../fonts/Vastago\ Grotesk\ Medium.otf') format('OpenType');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Vastago Grotesk';
+    src: url('../fonts/Vastago\ Grotesk\ Regular.otf') format('OpenType');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Vastago Grotesk';
+    src: url('../fonts/Vastago\ Grotesk\ SemiBold.otf') format('OpenType');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Vastago Grotesk';
+    src: url('../fonts/Vastago\ Grotesk\ Bold.otf') format('OpenType');
+    font-weight: 700;
+}
+.vast{
+    font-family: Vastago Grotesk;
+}
