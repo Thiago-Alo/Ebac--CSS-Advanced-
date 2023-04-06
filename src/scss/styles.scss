@@ -6,6 +6,11 @@ $font-default: Arial, Helvetica, sans-serif;
 $font-size-default: 1.6rem;
 $color-d-blue: #282A3D;
 $color-purple: #6A86E6;
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 html {
     font-family: Vastago Grotesk;
     font-size: 62.5%;
@@ -16,7 +21,6 @@ html {
 
 body {
     background-image: linear-gradient(to bottom right, $color-d-blue,$color-d-blue, $color-purple);
-
 }
 
 h1 {
@@ -41,7 +45,7 @@ footer {
     display: flex;
     flex-flow: column;
     margin: 0 auto;
-    max-width: 90vw;
+    width: 90vw;
 }
 
 #sobre {
